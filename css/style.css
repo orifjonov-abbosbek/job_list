@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700px;
+}
+.jobs_wrapper {
+  padding-top: 71px;
+  padding-left: 128px;
+  padding-right: 128px;
+}
+.card {
+  width: 1110px;
+  display: flex;
+
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  padding: 32px 48px 32px 40px;
+  margin-bottom: 24px;
+}
+.card:hover {
+  border-left: 3px solid #5ca5a5;
+  border-radius: 100px 0px 0px 100px;
+}
+.main_img {
+  margin-right: 24px;
+}
+.account_name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5ca5a5;
+  margin-right: 16px;
+}
+.status {
+  width: 51px;
+  height: 24px;
+  background: #5ca5a5;
+  border-radius: 11px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 6px;
+  margin-right: 16px;
+}
+.job_status {
+  display: flex;
+  width: 237px;
+
+  align-items: center;
+}
+.info {
+  margin-right: 260px;
+}
+
+.featured {
+  width: 79px;
+  height: 24px;
+  padding: 6px 8px 4px 13px;
+  background: #2b3939;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.job_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 8px;
+  color: #2b3939;
+}
+.job_title_link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 8px;
+  color: #2b3939;
+}
+.job_title:hover {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5ca5a5;
+}
+.date_time {
+  width: 265px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7c8f8f;
+  letter-spacing: -0.115385px;
+}
+
+.nuqta {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #b7c4c4;
+}
+.skills {
+  display: flex;
+
+  background-color: #fff;
+  mix-blend-mode: normal;
+
+  border-radius: 4px;
+}
+
+.skill1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  margin-right: 16px;
+  letter-spacing: -0.1px;
+  background-color: #eff6f6;
+  color: #007a7a;
+  padding: 4px 8px 4px 8px;
+}
+.skill1:hover {
+  background-color: #5ca5a5;
+  color: #fff;
+}
